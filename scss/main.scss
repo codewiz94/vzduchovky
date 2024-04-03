@@ -66,3 +66,25 @@ h5 {
 p {
     font-size: $fs-base;
 }
+
+// DISPLAY SETTINGS
+
+header {
+    max-width: 100%;
+}
+
+
+
+main {
+    max-width: 100%;
+}
+
+section {
+    max-width: 100%;
+}
+
+.content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}

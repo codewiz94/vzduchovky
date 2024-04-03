@@ -1,4 +1,4 @@
-// FONT SIZE
+// FONT SIZE - min 320px max 1300px
 
 $fs-sm: clamp(0.8rem, calc(-0.08vi + 0.82rem), 0.75rem);
 $fs-base: clamp(1rem, calc(0vi + 1rem), 1rem);
@@ -7,3 +7,24 @@ $fs-lg: clamp(1.56rem, calc(0.35vi + 1.49rem), 1.78rem);
 $fs-xl: clamp(1.95rem, calc(0.68vi + 1.82rem), 2.37rem);
 $fs-xxl: clamp(2.44rem, calc(1.17vi + 2.21rem), 3.16rem);
 $fs-xxxl: clamp(3.05rem, calc(1.89vi + 2.67rem), 4.21rem);
+
+// COLORS
+
+//general colors
+$color-neutral-lt: #F2F3F4;
+$color-neutral-dk: #1B1C1E;
+$color-special-lt: #BD9D6F;
+$color-special-dk: #3F3E46;
+
+//font colors
+$color-font-lt: #F2F3F4;
+$color-font-dk: #1B1C1E;
+
+//heading colors
+
+$color-heading-lt-1: #F2F3F4;
+$color-heading-lt-2: #BD9D6F;
+$color-heading-dk-1: #1B1C1E;
+$color-heading-dk-2: #3F3E46;
+
+

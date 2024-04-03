@@ -76,4 +76,26 @@ p {
   font-size: clamp(1rem, calc(0vi + 1rem), 1rem);
 }
 
+/* line 72, ../portfolio/vzduchovky/scss/main.scss */
+header {
+  max-width: 100%;
+}
+
+/* line 78, ../portfolio/vzduchovky/scss/main.scss */
+main {
+  max-width: 100%;
+}
+
+/* line 82, ../portfolio/vzduchovky/scss/main.scss */
+section {
+  max-width: 100%;
+}
+
+/* line 86, ../portfolio/vzduchovky/scss/main.scss */
+.content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
 /*# sourceMappingURL=main.css.map */
