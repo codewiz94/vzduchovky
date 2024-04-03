@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_variables.scss"
+	],
+	"sourcesContent": [
+		"@import 'variables.scss';\r\n\r\n// DOCUMENT SETTINGS\r\n\r\nhtml {\r\n    box-sizing: border-box;\r\n    scroll-behavior: smooth;\r\n    scroll-padding-top: 2rem;\r\n}\r\n \r\n*, *:before, *:after {\r\n    box-sizing: inherit;\r\n}\r\n \r\nhtml, body {\r\n    height: 100%;\r\n    padding: 0;\r\n    margin: 0;\r\n}\r\n\r\nimg {\r\n    max-width: 100%;\r\n    height: auto;\r\n    vertical-align: middle;\r\n}\r\n\r\nul {\r\n    margin: 0;\r\n    padding-left: 0;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n    margin: 0;\r\n    text-transform: uppercase;\r\n}\r\n\r\nh1 {\r\n    font-size: $fs-xxxl;\r\n}\r\n\r\nh2 {\r\n    font-size: $fs-xxl;\r\n}\r\n\r\nh3 {\r\n    font-size: $fs-xl;\r\n}\r\n\r\nh4 {\r\n    font-size: $fs-lg;\r\n}\r\n\r\nh5 {\r\n    font-size: $fs-md;\r\n}\r\n\r\np {\r\n    font-size: $fs-base;\r\n}",
+		"// FONT SIZE\r\n\r\n$fs-sm: clamp(0.8rem, calc(-0.08vi + 0.82rem), 0.75rem);\r\n$fs-base: clamp(1rem, calc(0vi + 1rem), 1rem);\r\n$fs-md: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);\r\n$fs-lg: clamp(1.56rem, calc(0.35vi + 1.49rem), 1.78rem);\r\n$fs-xl: clamp(1.95rem, calc(0.68vi + 1.82rem), 2.37rem);\r\n$fs-xxl: clamp(2.44rem, calc(1.17vi + 2.21rem), 3.16rem);\r\n$fs-xxxl: clamp(3.05rem, calc(1.89vi + 2.67rem), 4.21rem);"
+	],
+	"names": [],
+	"mappings": ";AAIA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAU;EACtB,eAAe,EAAE,MAAM;EACvB,kBAAkB,EAAE,IAAI;CAC3B;;;AAED,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,MAAM,CAAC;EACjB,UAAU,EAAE,OAAO;CACtB;;;AAED,AAAA,IAAI,EAAE,IAAI,CAAC;EACP,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACZ;;;AAED,AAAA,GAAG,CAAC;EACA,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;EACZ,cAAc,EAAE,MAAM;CACzB;;;AAED,AAAA,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;EACT,YAAY,EAAE,CAAC;CAClB;;;AAED,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CACxB;;;AAED,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;EACT,cAAc,EAAE,SAAS;CAC5B;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,ECtCH,+CAA+C;CDuCxD;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EC3CJ,+CAA+C;CD4CvD;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EChDL,+CAA+C;CDiDtD;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,ECrDL,+CAA+C;CDsDtD;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EC1DL,+CAA+C;CD2DtD;;;AAED,AAAA,CAAC,CAAC;EACE,SAAS,EC/DH,mCAAmC;CDgE5C"
+}
