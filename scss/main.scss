@@ -1,5 +1,6 @@
 @import 'variables.scss';
 @import 'header.scss';
+@import 'section-about.scss';
 @import 'footer.scss';
 
 // DOCUMENT SETTINGS
@@ -30,10 +31,7 @@ main {
     background-color: beige;
 }
 
-footer {
-    background-color: azure;
-    min-height: 100vh;
-}
+
 
 img {
     max-width: 100%;

@@ -1,0 +1,42 @@
+.section-about {
+    background-color: $color-neutral-lt;
+}
+
+.quick-nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+
+    .quick-item {
+        list-style: none;
+        border-right: 1px solid;
+        border-bottom: 1px solid;
+
+        li {
+            padding: 0.5rem 0;
+        }
+    }
+}
+
+.content-about {
+    h2 {
+        text-align: center;
+    }
+
+    .hero-wrap {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+
+        p {
+            place-self: center;
+            text-align: center;
+            line-height: 1.5;
+            font-size: $fs-md;
+        }
+    }
+
+    .hero {
+        border-radius: 50%;
+        place-self: center;
+    }
+}
