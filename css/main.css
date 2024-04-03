@@ -42,6 +42,7 @@ header {
 .heading-wrap {
   width: 100%;
   height: 100%;
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,7 +50,7 @@ header {
   color: #F2F3F4;
 }
 
-/* line 45, ../portfolio/vzduchovky/scss/_header.scss */
+/* line 46, ../portfolio/vzduchovky/scss/_header.scss */
 .heading-wrap h1,
 .heading-wrap h2 {
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
@@ -59,13 +60,86 @@ header {
   text-align: center;
 }
 
-/* line 55, ../portfolio/vzduchovky/scss/_header.scss */
+/* line 56, ../portfolio/vzduchovky/scss/_header.scss */
 .logo {
   max-width: 100%;
   position: absolute;
   border-radius: 50%;
-  top: 6%;
+  top: 8%;
   right: 5%;
+}
+
+@media (max-width: 1050px) {
+  /* line 66, ../portfolio/vzduchovky/scss/_header.scss */
+  header {
+    background: url(../img/header/header-bg-tb.webp) no-repeat;
+    background-size: cover;
+  }
+  /* line 71, ../portfolio/vzduchovky/scss/_header.scss */
+  .logo {
+    max-width: 200px;
+  }
+  /* line 76, ../portfolio/vzduchovky/scss/_header.scss */
+  .heading-wrap h1 {
+    font-size: clamp(2.44rem, calc(1.17vi + 2.21rem), 3.16rem);
+  }
+  /* line 80, ../portfolio/vzduchovky/scss/_header.scss */
+  .heading-wrap h2 {
+    font-size: clamp(1.95rem, calc(0.68vi + 1.82rem), 2.37rem);
+  }
+}
+
+@media (max-width: 500px) {
+  /* line 87, ../portfolio/vzduchovky/scss/_header.scss */
+  header {
+    background: url(../img/header/header-bg-mb.webp) no-repeat;
+    background-size: cover;
+  }
+  /* line 92, ../portfolio/vzduchovky/scss/_header.scss */
+  .logo {
+    max-width: 200px;
+    top: unset;
+    right: unset;
+    bottom: 5%;
+    left: 25%;
+  }
+  /* line 101, ../portfolio/vzduchovky/scss/_header.scss */
+  .heading-wrap h1 {
+    font-size: clamp(1.95rem, calc(0.68vi + 1.82rem), 2.37rem);
+  }
+  /* line 105, ../portfolio/vzduchovky/scss/_header.scss */
+  .heading-wrap h2 {
+    font-size: clamp(1.56rem, calc(0.35vi + 1.49rem), 1.78rem);
+  }
+}
+
+/* line 1, ../portfolio/vzduchovky/scss/_footer.scss */
+footer {
+  background: url(../img/footer/footer-bg-pc.webp) center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* line 6, ../portfolio/vzduchovky/scss/_footer.scss */
+footer section {
+  min-height: 100vh;
+  background-color: rgba(27, 28, 30, 0.7);
+}
+
+@media (max-width: 1050px) {
+  /* line 13, ../portfolio/vzduchovky/scss/_footer.scss */
+  footer {
+    background: url(../img/footer/footer-bg-tb.webp) center no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 500px) {
+  /* line 20, ../portfolio/vzduchovky/scss/_footer.scss */
+  footer {
+    background: url(../img/footer/footer-bg-mb.webp) center no-repeat;
+    background-size: cover;
+  }
 }
 
 /* line 7, ../portfolio/vzduchovky/scss/main.scss */

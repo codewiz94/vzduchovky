@@ -1,0 +1,24 @@
+footer {
+    background: url(../img/footer/footer-bg-pc.webp) center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+    section {
+        min-height: 100vh;
+        background-color: rgba(27, 28, 30, 0.7);
+    }
+}
+
+@media (max-width: 1050px) {
+    footer {
+        background: url(../img/footer/footer-bg-tb.webp) center no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 500px) {
+    footer {
+        background: url(../img/footer/footer-bg-mb.webp) center no-repeat;
+        background-size: cover;
+    }
+}
