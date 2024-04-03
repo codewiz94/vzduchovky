@@ -1,4 +1,6 @@
 @import 'variables.scss';
+@import 'header.scss';
+@import 'footer.scss';
 
 // DOCUMENT SETTINGS
 
@@ -16,6 +18,20 @@ html, body {
     height: 100%;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: aqua;
+}
+
+
+main {
+    background-color: beige;
+}
+
+footer {
+    background-color: azure;
 }
 
 img {
