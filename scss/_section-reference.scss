@@ -1,0 +1,43 @@
+.section-reference {
+    background-color: $color-neutral-dk;
+    color: $color-neutral-lt;
+
+
+    h2 {
+        text-align: center;
+        line-height: 2;
+    }
+
+    .ref {
+        border-bottom: 1px solid;
+        padding: 2rem 0;
+        p {
+            font-size: $fs-md;
+            line-height: 2;
+        }
+    }
+
+    .ref-3 {
+        margin-bottom: 2rem;
+    }
+
+    .rest-ref {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $color-font-lt;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-size: $fs-lg;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+
+}
+
+@media (min-width: 500px) {
+    #final-link {
+        font-size: $fs-md;
+    }
+    
+}
