@@ -691,6 +691,49 @@ header {
   }
 }
 
+/* line 1, ../portfolio/vzduchovky/scss/_section-contact.scss */
+.section-contact {
+  background-color: #1B1C1E;
+  color: #F2F3F4;
+}
+
+/* line 4, ../portfolio/vzduchovky/scss/_section-contact.scss */
+.section-contact h2, .section-contact h3 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* line 9, ../portfolio/vzduchovky/scss/_section-contact.scss */
+.section-contact .contact-menu {
+  list-style: none;
+  text-align: center;
+}
+
+/* line 13, ../portfolio/vzduchovky/scss/_section-contact.scss */
+.section-contact .contact-menu li {
+  padding: 1rem;
+  line-height: 2;
+  font-size: clamp(1.56rem, calc(0.35vi + 1.49rem), 1.78rem);
+}
+
+/* line 18, ../portfolio/vzduchovky/scss/_section-contact.scss */
+.section-contact .contact-menu li a {
+  color: #F2F3F4;
+  font-weight: 700;
+}
+
+/* line 25, ../portfolio/vzduchovky/scss/_section-contact.scss */
+.section-contact .contact-icon {
+  font-size: clamp(1.95rem, calc(0.68vi + 1.82rem), 2.37rem);
+}
+
+@media (max-width: 500px) {
+  /* line 32, ../portfolio/vzduchovky/scss/_section-contact.scss */
+  .section-contact .contact-menu li {
+    font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
+  }
+}
+
 /* line 1, ../portfolio/vzduchovky/scss/_footer.scss */
 footer {
   background: url(../img/footer/footer-bg-pc.webp) center no-repeat;
@@ -806,55 +849,55 @@ footer section {
   padding-left: 0.25rem;
 }
 
-/* line 12, ../portfolio/vzduchovky/scss/main.scss */
+/* line 13, ../portfolio/vzduchovky/scss/main.scss */
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   scroll-padding-top: 2.5rem;
 }
 
-/* line 18, ../portfolio/vzduchovky/scss/main.scss */
+/* line 19, ../portfolio/vzduchovky/scss/main.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 22, ../portfolio/vzduchovky/scss/main.scss */
+/* line 23, ../portfolio/vzduchovky/scss/main.scss */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* line 28, ../portfolio/vzduchovky/scss/main.scss */
+/* line 29, ../portfolio/vzduchovky/scss/main.scss */
 body {
   font-family: "Roboto", sans-serif;
   background-color: aqua;
 }
 
-/* line 34, ../portfolio/vzduchovky/scss/main.scss */
+/* line 35, ../portfolio/vzduchovky/scss/main.scss */
 main {
   background-color: beige;
 }
 
-/* line 40, ../portfolio/vzduchovky/scss/main.scss */
+/* line 41, ../portfolio/vzduchovky/scss/main.scss */
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-/* line 46, ../portfolio/vzduchovky/scss/main.scss */
+/* line 47, ../portfolio/vzduchovky/scss/main.scss */
 ul {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 51, ../portfolio/vzduchovky/scss/main.scss */
+/* line 52, ../portfolio/vzduchovky/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 55, ../portfolio/vzduchovky/scss/main.scss */
+/* line 56, ../portfolio/vzduchovky/scss/main.scss */
 h1,
 h2,
 h3,
@@ -865,52 +908,52 @@ h6 {
   text-transform: uppercase;
 }
 
-/* line 65, ../portfolio/vzduchovky/scss/main.scss */
+/* line 66, ../portfolio/vzduchovky/scss/main.scss */
 h1 {
   font-size: clamp(3.05rem, calc(1.89vi + 2.67rem), 4.21rem);
 }
 
-/* line 69, ../portfolio/vzduchovky/scss/main.scss */
+/* line 70, ../portfolio/vzduchovky/scss/main.scss */
 h2 {
   font-size: clamp(2.44rem, calc(1.17vi + 2.21rem), 3.16rem);
 }
 
-/* line 73, ../portfolio/vzduchovky/scss/main.scss */
+/* line 74, ../portfolio/vzduchovky/scss/main.scss */
 h3 {
   font-size: clamp(1.95rem, calc(0.68vi + 1.82rem), 2.37rem);
 }
 
-/* line 77, ../portfolio/vzduchovky/scss/main.scss */
+/* line 78, ../portfolio/vzduchovky/scss/main.scss */
 h4 {
   font-size: clamp(1.56rem, calc(0.35vi + 1.49rem), 1.78rem);
 }
 
-/* line 81, ../portfolio/vzduchovky/scss/main.scss */
+/* line 82, ../portfolio/vzduchovky/scss/main.scss */
 h5 {
   font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
 }
 
-/* line 85, ../portfolio/vzduchovky/scss/main.scss */
+/* line 86, ../portfolio/vzduchovky/scss/main.scss */
 p {
   font-size: clamp(1rem, calc(0vi + 1rem), 1rem);
 }
 
-/* line 91, ../portfolio/vzduchovky/scss/main.scss */
+/* line 92, ../portfolio/vzduchovky/scss/main.scss */
 header {
   max-width: 100%;
 }
 
-/* line 97, ../portfolio/vzduchovky/scss/main.scss */
+/* line 98, ../portfolio/vzduchovky/scss/main.scss */
 main {
   max-width: 100%;
 }
 
-/* line 101, ../portfolio/vzduchovky/scss/main.scss */
+/* line 102, ../portfolio/vzduchovky/scss/main.scss */
 section {
   max-width: 100%;
 }
 
-/* line 105, ../portfolio/vzduchovky/scss/main.scss */
+/* line 106, ../portfolio/vzduchovky/scss/main.scss */
 .content {
   max-width: 1300px;
   margin: 0 auto;
