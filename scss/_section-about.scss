@@ -84,6 +84,28 @@
 }
 
 
+// ABOUT
+
+.content-about {
+
+
+
+    h2 {
+        text-align: center;
+    }
+
+
+
+     p {
+        line-height: 2;
+        font-size: $fs-lg;
+        text-align: center;
+    }
+    
+
+}
+
+
 @media (max-width: 1300px) {
     .quick-nav {
         grid-template-columns: repeat(3, 1fr);
@@ -125,26 +147,11 @@
     .tm-icon {
         font-size: $fs-xxxl;
     }
-}
 
-
-// ABOUT
-
-.content-about {
-
-
-
-    h2 {
-        text-align: center;
+    .content-about p {
+        font-size: $fs-md;
     }
 
 
-
-     p {
-        line-height: 2;
-        font-size: $fs-lg;
-        text-align: center;
-    }
-    
-
 }
+
