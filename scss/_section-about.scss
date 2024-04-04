@@ -14,6 +14,29 @@
         list-style: none;
         padding: 1.5rem 0.25rem;
 
+        li a {
+            color: $color-font-dk;
+        }
+
+        &:hover,
+        &:active {
+            transform: scale(1.05);
+            transition-duration: 200ms;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+            cursor: pointer;
+
+            li a {
+
+                color: $color-special-lt;
+                font-weight: 500;
+
+                .tm-icon {
+                    color: $color-special-lt;
+                    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+                }
+            }
+        }
+
         li {
             padding: 0.5rem;
         }
@@ -52,6 +75,11 @@
 
 .tm-icon {
     font-size: $fs-xxl;
+
+    &:hover,
+    &:active {
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
 }
 
 .content-about {
@@ -74,5 +102,48 @@
     .hero {
         border-radius: 50%;
         place-self: center;
+    }
+}
+
+@media (max-width: 1300px) {
+    .quick-nav {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media (max-width: 800px) {
+    .quick-nav {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .quick-nav .quick-item:nth-child(3) {
+        background-color: darken($color-neutral-lt, 10%);
+    }
+
+    .quick-nav .quick-item:nth-child(4) {
+        background-color: darken($color-neutral-lt, 5%);
+    }
+    
+}
+    
+
+
+@media (max-width: 500px) {
+    .quick-nav {
+        grid-template-columns: 1fr;
+    }
+
+    .quick-nav .quick-item:nth-child(3) {
+        background-color: darken($color-neutral-lt, 5%);
+    }
+
+    .quick-nav .quick-item:nth-child(4) {
+        background-color: darken($color-neutral-lt, 10%);
+    }
+
+    .tm-icon {
+        font-size: $fs-xxxl;
     }
 }
