@@ -2,6 +2,7 @@
     background-color: $color-neutral-lt;
 }
 
+// ICON NAV
 
 .quick-nav {
     display: grid;
@@ -82,28 +83,6 @@
     }
 }
 
-.content-about {
-    h2 {
-        text-align: center;
-    }
-
-    .hero-wrap {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-
-        p {
-            place-self: center;
-            text-align: center;
-            line-height: 1.5;
-            font-size: $fs-md;
-        }
-    }
-
-    .hero {
-        border-radius: 50%;
-        place-self: center;
-    }
-}
 
 @media (max-width: 1300px) {
     .quick-nav {
@@ -146,4 +125,26 @@
     .tm-icon {
         font-size: $fs-xxxl;
     }
+}
+
+
+// ABOUT
+
+.content-about {
+
+
+
+    h2 {
+        text-align: center;
+    }
+
+
+
+     p {
+        line-height: 2;
+        font-size: $fs-lg;
+        text-align: center;
+    }
+    
+
 }

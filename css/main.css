@@ -124,7 +124,7 @@ header {
   background-color: #F2F3F4;
 }
 
-/* line 6, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 7, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -133,18 +133,18 @@ header {
   line-height: 1.5;
 }
 
-/* line 13, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 14, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav .quick-item {
   list-style: none;
   padding: 1.5rem 0.25rem;
 }
 
-/* line 17, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 18, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav .quick-item li a {
   color: #1B1C1E;
 }
 
-/* line 21, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 22, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav .quick-item:hover, .quick-nav .quick-item:active {
   transform: scale(1.05);
   transition-duration: 200ms;
@@ -152,129 +152,116 @@ header {
   cursor: pointer;
 }
 
-/* line 28, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 29, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav .quick-item:hover li a, .quick-nav .quick-item:active li a {
   color: #BD9D6F;
   font-weight: 500;
 }
 
-/* line 33, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 34, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav .quick-item:hover li a .tm-icon, .quick-nav .quick-item:active li a .tm-icon {
   color: #BD9D6F;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
-/* line 40, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 41, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav .quick-item li {
   padding: 0.5rem;
 }
 
-/* line 44, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 45, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav .quick-item li:first-of-type a {
   color: #1B1C1E;
 }
 
-/* line 48, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 49, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav .quick-item li:nth-of-type(2) {
   text-transform: uppercase;
   font-weight: 700;
   font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
 }
 
-/* line 54, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 55, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav .quick-item li:last-of-type {
   font-size: clamp(1rem, calc(0vi + 1rem), 1rem);
 }
 
-/* line 60, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 61, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav .quick-item:last-of-type {
   border-right: none;
 }
 
-/* line 64, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 65, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav .quick-item:nth-child(odd) {
   background-color: #e4e6e8;
 }
 
-/* line 68, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 69, ../portfolio/vzduchovky/scss/_section-about.scss */
 .quick-nav .quick-item:nth-child(even) {
   background-color: #d6dadd;
 }
 
-/* line 76, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 77, ../portfolio/vzduchovky/scss/_section-about.scss */
 .tm-icon {
   font-size: clamp(2.44rem, calc(1.17vi + 2.21rem), 3.16rem);
 }
 
-/* line 79, ../portfolio/vzduchovky/scss/_section-about.scss */
+/* line 80, ../portfolio/vzduchovky/scss/_section-about.scss */
 .tm-icon:hover, .tm-icon:active {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
-/* line 86, ../portfolio/vzduchovky/scss/_section-about.scss */
-.content-about h2 {
-  text-align: center;
-}
-
-/* line 90, ../portfolio/vzduchovky/scss/_section-about.scss */
-.content-about .hero-wrap {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
-/* line 94, ../portfolio/vzduchovky/scss/_section-about.scss */
-.content-about .hero-wrap p {
-  place-self: center;
-  text-align: center;
-  line-height: 1.5;
-  font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
-}
-
-/* line 102, ../portfolio/vzduchovky/scss/_section-about.scss */
-.content-about .hero {
-  border-radius: 50%;
-  place-self: center;
-}
-
 @media (max-width: 1300px) {
-  /* line 109, ../portfolio/vzduchovky/scss/_section-about.scss */
+  /* line 88, ../portfolio/vzduchovky/scss/_section-about.scss */
   .quick-nav {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 800px) {
-  /* line 116, ../portfolio/vzduchovky/scss/_section-about.scss */
+  /* line 95, ../portfolio/vzduchovky/scss/_section-about.scss */
   .quick-nav {
     grid-template-columns: repeat(2, 1fr);
   }
-  /* line 121, ../portfolio/vzduchovky/scss/_section-about.scss */
+  /* line 100, ../portfolio/vzduchovky/scss/_section-about.scss */
   .quick-nav .quick-item:nth-child(3) {
     background-color: #d6dadd;
   }
-  /* line 125, ../portfolio/vzduchovky/scss/_section-about.scss */
+  /* line 104, ../portfolio/vzduchovky/scss/_section-about.scss */
   .quick-nav .quick-item:nth-child(4) {
     background-color: #e4e6e8;
   }
 }
 
 @media (max-width: 500px) {
-  /* line 134, ../portfolio/vzduchovky/scss/_section-about.scss */
+  /* line 113, ../portfolio/vzduchovky/scss/_section-about.scss */
   .quick-nav {
     grid-template-columns: 1fr;
   }
-  /* line 138, ../portfolio/vzduchovky/scss/_section-about.scss */
+  /* line 117, ../portfolio/vzduchovky/scss/_section-about.scss */
   .quick-nav .quick-item:nth-child(3) {
     background-color: #e4e6e8;
   }
-  /* line 142, ../portfolio/vzduchovky/scss/_section-about.scss */
+  /* line 121, ../portfolio/vzduchovky/scss/_section-about.scss */
   .quick-nav .quick-item:nth-child(4) {
     background-color: #d6dadd;
   }
-  /* line 146, ../portfolio/vzduchovky/scss/_section-about.scss */
+  /* line 125, ../portfolio/vzduchovky/scss/_section-about.scss */
   .tm-icon {
     font-size: clamp(3.05rem, calc(1.89vi + 2.67rem), 4.21rem);
   }
+}
+
+/* line 137, ../portfolio/vzduchovky/scss/_section-about.scss */
+.content-about h2 {
+  text-align: center;
+}
+
+/* line 143, ../portfolio/vzduchovky/scss/_section-about.scss */
+.content-about p {
+  line-height: 2;
+  font-size: clamp(1.56rem, calc(0.35vi + 1.49rem), 1.78rem);
+  text-align: center;
 }
 
 /* line 1, ../portfolio/vzduchovky/scss/_footer.scss */
@@ -392,55 +379,55 @@ footer section {
   padding-left: 0.25rem;
 }
 
-/* line 8, ../portfolio/vzduchovky/scss/main.scss */
+/* line 9, ../portfolio/vzduchovky/scss/main.scss */
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
 }
 
-/* line 14, ../portfolio/vzduchovky/scss/main.scss */
+/* line 15, ../portfolio/vzduchovky/scss/main.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 18, ../portfolio/vzduchovky/scss/main.scss */
+/* line 19, ../portfolio/vzduchovky/scss/main.scss */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* line 24, ../portfolio/vzduchovky/scss/main.scss */
+/* line 25, ../portfolio/vzduchovky/scss/main.scss */
 body {
   font-family: "Roboto", sans-serif;
   background-color: aqua;
 }
 
-/* line 30, ../portfolio/vzduchovky/scss/main.scss */
+/* line 31, ../portfolio/vzduchovky/scss/main.scss */
 main {
   background-color: beige;
 }
 
-/* line 36, ../portfolio/vzduchovky/scss/main.scss */
+/* line 37, ../portfolio/vzduchovky/scss/main.scss */
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-/* line 42, ../portfolio/vzduchovky/scss/main.scss */
+/* line 43, ../portfolio/vzduchovky/scss/main.scss */
 ul {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 47, ../portfolio/vzduchovky/scss/main.scss */
+/* line 48, ../portfolio/vzduchovky/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 51, ../portfolio/vzduchovky/scss/main.scss */
+/* line 52, ../portfolio/vzduchovky/scss/main.scss */
 h1,
 h2,
 h3,
@@ -451,56 +438,56 @@ h6 {
   text-transform: uppercase;
 }
 
-/* line 61, ../portfolio/vzduchovky/scss/main.scss */
+/* line 62, ../portfolio/vzduchovky/scss/main.scss */
 h1 {
   font-size: clamp(3.05rem, calc(1.89vi + 2.67rem), 4.21rem);
 }
 
-/* line 65, ../portfolio/vzduchovky/scss/main.scss */
+/* line 66, ../portfolio/vzduchovky/scss/main.scss */
 h2 {
   font-size: clamp(2.44rem, calc(1.17vi + 2.21rem), 3.16rem);
 }
 
-/* line 69, ../portfolio/vzduchovky/scss/main.scss */
+/* line 70, ../portfolio/vzduchovky/scss/main.scss */
 h3 {
   font-size: clamp(1.95rem, calc(0.68vi + 1.82rem), 2.37rem);
 }
 
-/* line 73, ../portfolio/vzduchovky/scss/main.scss */
+/* line 74, ../portfolio/vzduchovky/scss/main.scss */
 h4 {
   font-size: clamp(1.56rem, calc(0.35vi + 1.49rem), 1.78rem);
 }
 
-/* line 77, ../portfolio/vzduchovky/scss/main.scss */
+/* line 78, ../portfolio/vzduchovky/scss/main.scss */
 h5 {
   font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
 }
 
-/* line 81, ../portfolio/vzduchovky/scss/main.scss */
+/* line 82, ../portfolio/vzduchovky/scss/main.scss */
 p {
   font-size: clamp(1rem, calc(0vi + 1rem), 1rem);
 }
 
-/* line 87, ../portfolio/vzduchovky/scss/main.scss */
+/* line 88, ../portfolio/vzduchovky/scss/main.scss */
 header {
   max-width: 100%;
 }
 
-/* line 93, ../portfolio/vzduchovky/scss/main.scss */
+/* line 94, ../portfolio/vzduchovky/scss/main.scss */
 main {
   max-width: 100%;
 }
 
-/* line 97, ../portfolio/vzduchovky/scss/main.scss */
+/* line 98, ../portfolio/vzduchovky/scss/main.scss */
 section {
   max-width: 100%;
 }
 
-/* line 101, ../portfolio/vzduchovky/scss/main.scss */
+/* line 102, ../portfolio/vzduchovky/scss/main.scss */
 .content {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 1.25rem;
+  padding: 2rem 1.25rem;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,7 @@
 @import 'variables.scss';
 @import 'header.scss';
 @import 'section-about.scss';
+@import 'section-services.scss';
 @import 'footer.scss';
 
 // DOCUMENT SETTINGS
@@ -101,5 +102,5 @@ section {
 .content {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 1.25rem;
+    padding: 2rem 1.25rem;
 }
