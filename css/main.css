@@ -563,6 +563,32 @@ header {
   }
 }
 
+/* line 1, ../portfolio/vzduchovky/scss/_section-bazar.scss */
+.section-bazar {
+  background-color: #1B1C1E;
+  text-align: center;
+  color: #F2F3F4;
+}
+
+/* line 6, ../portfolio/vzduchovky/scss/_section-bazar.scss */
+.section-bazar h3 {
+  line-height: 2;
+}
+
+/* line 10, ../portfolio/vzduchovky/scss/_section-bazar.scss */
+.section-bazar p {
+  font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
+  line-height: 2;
+}
+
+/* line 15, ../portfolio/vzduchovky/scss/_section-bazar.scss */
+.section-bazar a {
+  text-decoration: underline;
+  color: #BD9D6F;
+  font-size: clamp(1.95rem, calc(0.68vi + 1.82rem), 2.37rem);
+  text-underline-offset: 11px;
+}
+
 /* line 1, ../portfolio/vzduchovky/scss/_footer.scss */
 footer {
   background: url(../img/footer/footer-bg-pc.webp) center no-repeat;
@@ -678,55 +704,55 @@ footer section {
   padding-left: 0.25rem;
 }
 
-/* line 10, ../portfolio/vzduchovky/scss/main.scss */
+/* line 11, ../portfolio/vzduchovky/scss/main.scss */
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   scroll-padding-top: 2.5rem;
 }
 
-/* line 16, ../portfolio/vzduchovky/scss/main.scss */
+/* line 17, ../portfolio/vzduchovky/scss/main.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 20, ../portfolio/vzduchovky/scss/main.scss */
+/* line 21, ../portfolio/vzduchovky/scss/main.scss */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* line 26, ../portfolio/vzduchovky/scss/main.scss */
+/* line 27, ../portfolio/vzduchovky/scss/main.scss */
 body {
   font-family: "Roboto", sans-serif;
   background-color: aqua;
 }
 
-/* line 32, ../portfolio/vzduchovky/scss/main.scss */
+/* line 33, ../portfolio/vzduchovky/scss/main.scss */
 main {
   background-color: beige;
 }
 
-/* line 38, ../portfolio/vzduchovky/scss/main.scss */
+/* line 39, ../portfolio/vzduchovky/scss/main.scss */
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-/* line 44, ../portfolio/vzduchovky/scss/main.scss */
+/* line 45, ../portfolio/vzduchovky/scss/main.scss */
 ul {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 49, ../portfolio/vzduchovky/scss/main.scss */
+/* line 50, ../portfolio/vzduchovky/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 53, ../portfolio/vzduchovky/scss/main.scss */
+/* line 54, ../portfolio/vzduchovky/scss/main.scss */
 h1,
 h2,
 h3,
@@ -737,52 +763,52 @@ h6 {
   text-transform: uppercase;
 }
 
-/* line 63, ../portfolio/vzduchovky/scss/main.scss */
+/* line 64, ../portfolio/vzduchovky/scss/main.scss */
 h1 {
   font-size: clamp(3.05rem, calc(1.89vi + 2.67rem), 4.21rem);
 }
 
-/* line 67, ../portfolio/vzduchovky/scss/main.scss */
+/* line 68, ../portfolio/vzduchovky/scss/main.scss */
 h2 {
   font-size: clamp(2.44rem, calc(1.17vi + 2.21rem), 3.16rem);
 }
 
-/* line 71, ../portfolio/vzduchovky/scss/main.scss */
+/* line 72, ../portfolio/vzduchovky/scss/main.scss */
 h3 {
   font-size: clamp(1.95rem, calc(0.68vi + 1.82rem), 2.37rem);
 }
 
-/* line 75, ../portfolio/vzduchovky/scss/main.scss */
+/* line 76, ../portfolio/vzduchovky/scss/main.scss */
 h4 {
   font-size: clamp(1.56rem, calc(0.35vi + 1.49rem), 1.78rem);
 }
 
-/* line 79, ../portfolio/vzduchovky/scss/main.scss */
+/* line 80, ../portfolio/vzduchovky/scss/main.scss */
 h5 {
   font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
 }
 
-/* line 83, ../portfolio/vzduchovky/scss/main.scss */
+/* line 84, ../portfolio/vzduchovky/scss/main.scss */
 p {
   font-size: clamp(1rem, calc(0vi + 1rem), 1rem);
 }
 
-/* line 89, ../portfolio/vzduchovky/scss/main.scss */
+/* line 90, ../portfolio/vzduchovky/scss/main.scss */
 header {
   max-width: 100%;
 }
 
-/* line 95, ../portfolio/vzduchovky/scss/main.scss */
+/* line 96, ../portfolio/vzduchovky/scss/main.scss */
 main {
   max-width: 100%;
 }
 
-/* line 99, ../portfolio/vzduchovky/scss/main.scss */
+/* line 100, ../portfolio/vzduchovky/scss/main.scss */
 section {
   max-width: 100%;
 }
 
-/* line 103, ../portfolio/vzduchovky/scss/main.scss */
+/* line 104, ../portfolio/vzduchovky/scss/main.scss */
 .content {
   max-width: 1300px;
   margin: 0 auto;

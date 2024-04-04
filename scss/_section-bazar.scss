@@ -1,0 +1,21 @@
+.section-bazar {
+    background-color: $color-neutral-dk;
+    text-align: center;
+    color: $color-font-lt;
+
+    h3 {
+        line-height: 2;
+    }
+
+    p {
+        font-size: $fs-md;
+        line-height: 2;
+    }
+
+    a {
+        text-decoration: underline;
+        color: $color-special-lt;
+        font-size: $fs-xl;
+        text-underline-offset: 11px;
+    }
+}
