@@ -327,14 +327,19 @@ header {
   place-self: center;
 }
 
-/* line 57, ../portfolio/vzduchovky/scss/_section-services.scss */
+/* line 53, ../portfolio/vzduchovky/scss/_section-services.scss */
+.brands img:last-of-type {
+  padding-top: 2rem;
+}
+
+/* line 61, ../portfolio/vzduchovky/scss/_section-services.scss */
 .service-item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 2rem 0;
 }
 
-/* line 63, ../portfolio/vzduchovky/scss/_section-services.scss */
+/* line 67, ../portfolio/vzduchovky/scss/_section-services.scss */
 .icon-wrap {
   container-type: size;
   display: flex;
@@ -342,14 +347,14 @@ header {
   justify-content: center;
 }
 
-/* line 69, ../portfolio/vzduchovky/scss/_section-services.scss */
+/* line 73, ../portfolio/vzduchovky/scss/_section-services.scss */
 .icon-wrap i {
   font-size: 60cqh;
   color: #BD9D6F;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);
 }
 
-/* line 79, ../portfolio/vzduchovky/scss/_section-services.scss */
+/* line 83, ../portfolio/vzduchovky/scss/_section-services.scss */
 .service-content {
   padding: 1rem;
   border-radius: 15px;
@@ -357,38 +362,38 @@ header {
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-/* line 85, ../portfolio/vzduchovky/scss/_section-services.scss */
+/* line 89, ../portfolio/vzduchovky/scss/_section-services.scss */
 .service-content h3 {
   text-align: center;
   line-height: 2;
 }
 
-/* line 90, ../portfolio/vzduchovky/scss/_section-services.scss */
+/* line 94, ../portfolio/vzduchovky/scss/_section-services.scss */
 .service-content p {
   font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
   line-height: 1.5;
   text-align: center;
 }
 
-/* line 96, ../portfolio/vzduchovky/scss/_section-services.scss */
+/* line 100, ../portfolio/vzduchovky/scss/_section-services.scss */
 .service-content ul {
   font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
   padding-left: 2rem;
   line-height: 2;
 }
 
-/* line 101, ../portfolio/vzduchovky/scss/_section-services.scss */
+/* line 105, ../portfolio/vzduchovky/scss/_section-services.scss */
 .service-content ul li::marker {
   color: #0D2F62;
   font-weight: 700;
 }
 
-/* line 107, ../portfolio/vzduchovky/scss/_section-services.scss */
+/* line 111, ../portfolio/vzduchovky/scss/_section-services.scss */
 .service-content .link-wrap {
   text-align: center;
 }
 
-/* line 111, ../portfolio/vzduchovky/scss/_section-services.scss */
+/* line 115, ../portfolio/vzduchovky/scss/_section-services.scss */
 .service-content a {
   display: inline-block;
   margin: 0 auto;
@@ -402,60 +407,60 @@ header {
   font-weight: 500;
 }
 
-/* line 126, ../portfolio/vzduchovky/scss/_section-services.scss */
-.service-item:nth-child(odd) .icon-wrap {
+/* line 130, ../portfolio/vzduchovky/scss/_section-services.scss */
+.section-services .service-item:nth-child(odd) .icon-wrap {
   order: 2;
 }
 
 @media (max-width: 1050px) {
-  /* line 134, ../portfolio/vzduchovky/scss/_section-services.scss */
+  /* line 140, ../portfolio/vzduchovky/scss/_section-services.scss */
   .slavia-wrap {
     display: block;
   }
-  /* line 137, ../portfolio/vzduchovky/scss/_section-services.scss */
+  /* line 143, ../portfolio/vzduchovky/scss/_section-services.scss */
   .slavia-wrap p {
     text-align: center;
   }
-  /* line 141, ../portfolio/vzduchovky/scss/_section-services.scss */
+  /* line 147, ../portfolio/vzduchovky/scss/_section-services.scss */
   .slavia-wrap .slavia {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  /* line 149, ../portfolio/vzduchovky/scss/_section-services.scss */
+  /* line 155, ../portfolio/vzduchovky/scss/_section-services.scss */
   #slavia {
     max-width: 50%;
   }
-  /* line 153, ../portfolio/vzduchovky/scss/_section-services.scss */
+  /* line 159, ../portfolio/vzduchovky/scss/_section-services.scss */
   .service-item {
     grid-template-columns: unset;
     grid-template-rows: repeat(2, 1fr);
     margin: 0;
   }
-  /* line 158, ../portfolio/vzduchovky/scss/_section-services.scss */
+  /* line 164, ../portfolio/vzduchovky/scss/_section-services.scss */
   .service-item .icon-wrap {
     order: 1;
   }
-  /* line 162, ../portfolio/vzduchovky/scss/_section-services.scss */
+  /* line 168, ../portfolio/vzduchovky/scss/_section-services.scss */
   .service-item .service-content {
     order: 2;
   }
 }
 
 @media (max-width: 600px) {
-  /* line 173, ../portfolio/vzduchovky/scss/_section-services.scss */
+  /* line 179, ../portfolio/vzduchovky/scss/_section-services.scss */
   .slavia-wrap p {
     font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
   }
-  /* line 177, ../portfolio/vzduchovky/scss/_section-services.scss */
+  /* line 183, ../portfolio/vzduchovky/scss/_section-services.scss */
   .brands p {
     font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
   }
-  /* line 181, ../portfolio/vzduchovky/scss/_section-services.scss */
+  /* line 187, ../portfolio/vzduchovky/scss/_section-services.scss */
   .service-item {
     display: block;
   }
-  /* line 185, ../portfolio/vzduchovky/scss/_section-services.scss */
+  /* line 191, ../portfolio/vzduchovky/scss/_section-services.scss */
   .icon-wrap {
     height: 20vh;
   }
@@ -589,6 +594,103 @@ header {
   text-underline-offset: 11px;
 }
 
+/* line 1, ../portfolio/vzduchovky/scss/_section-price.scss */
+.section-price {
+  background-color: #d6dadd;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 6, ../portfolio/vzduchovky/scss/_section-price.scss */
+.section-price h2 {
+  text-align: center;
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+/* line 12, ../portfolio/vzduchovky/scss/_section-price.scss */
+.section-price .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+/* line 19, ../portfolio/vzduchovky/scss/_section-price.scss */
+.section-price .card {
+  padding: 1rem;
+  padding-bottom: 2rem;
+  background-color: #F2F3F4;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* line 26, ../portfolio/vzduchovky/scss/_section-price.scss */
+.section-price .card:hover, .section-price .card:active {
+  transform: scale(1.05);
+  transition-duration: 200ms;
+}
+
+/* line 32, ../portfolio/vzduchovky/scss/_section-price.scss */
+.section-price .card i {
+  font-size: clamp(2.44rem, calc(1.17vi + 2.21rem), 3.16rem);
+  line-height: 2;
+  color: #0D2F62;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+/* line 38, ../portfolio/vzduchovky/scss/_section-price.scss */
+.section-price .card h4,
+.section-price .card h5 {
+  line-height: 1.5;
+  font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
+}
+
+/* line 44, ../portfolio/vzduchovky/scss/_section-price.scss */
+.section-price .card h5 {
+  color: #0D2F62;
+}
+
+/* line 48, ../portfolio/vzduchovky/scss/_section-price.scss */
+.section-price .card ul {
+  text-align: left;
+  padding-left: 2rem;
+  font-size: clamp(1rem, calc(0vi + 1rem), 1rem);
+  line-height: 2;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 57, ../portfolio/vzduchovky/scss/_section-price.scss */
+.section-price .card a {
+  padding: 1rem;
+  background-color: #0D2F62;
+  color: #F2F3F4;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+/* line 65, ../portfolio/vzduchovky/scss/_section-price.scss */
+.section-price .card a:hover, .section-price .card a:active {
+  background-color: #BD9D6F;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 1050px) {
+  /* line 75, ../portfolio/vzduchovky/scss/_section-price.scss */
+  .section-price .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 82, ../portfolio/vzduchovky/scss/_section-price.scss */
+  .section-price .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* line 1, ../portfolio/vzduchovky/scss/_footer.scss */
 footer {
   background: url(../img/footer/footer-bg-pc.webp) center no-repeat;
@@ -704,55 +806,55 @@ footer section {
   padding-left: 0.25rem;
 }
 
-/* line 11, ../portfolio/vzduchovky/scss/main.scss */
+/* line 12, ../portfolio/vzduchovky/scss/main.scss */
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   scroll-padding-top: 2.5rem;
 }
 
-/* line 17, ../portfolio/vzduchovky/scss/main.scss */
+/* line 18, ../portfolio/vzduchovky/scss/main.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 21, ../portfolio/vzduchovky/scss/main.scss */
+/* line 22, ../portfolio/vzduchovky/scss/main.scss */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* line 27, ../portfolio/vzduchovky/scss/main.scss */
+/* line 28, ../portfolio/vzduchovky/scss/main.scss */
 body {
   font-family: "Roboto", sans-serif;
   background-color: aqua;
 }
 
-/* line 33, ../portfolio/vzduchovky/scss/main.scss */
+/* line 34, ../portfolio/vzduchovky/scss/main.scss */
 main {
   background-color: beige;
 }
 
-/* line 39, ../portfolio/vzduchovky/scss/main.scss */
+/* line 40, ../portfolio/vzduchovky/scss/main.scss */
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-/* line 45, ../portfolio/vzduchovky/scss/main.scss */
+/* line 46, ../portfolio/vzduchovky/scss/main.scss */
 ul {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 50, ../portfolio/vzduchovky/scss/main.scss */
+/* line 51, ../portfolio/vzduchovky/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 54, ../portfolio/vzduchovky/scss/main.scss */
+/* line 55, ../portfolio/vzduchovky/scss/main.scss */
 h1,
 h2,
 h3,
@@ -763,52 +865,52 @@ h6 {
   text-transform: uppercase;
 }
 
-/* line 64, ../portfolio/vzduchovky/scss/main.scss */
+/* line 65, ../portfolio/vzduchovky/scss/main.scss */
 h1 {
   font-size: clamp(3.05rem, calc(1.89vi + 2.67rem), 4.21rem);
 }
 
-/* line 68, ../portfolio/vzduchovky/scss/main.scss */
+/* line 69, ../portfolio/vzduchovky/scss/main.scss */
 h2 {
   font-size: clamp(2.44rem, calc(1.17vi + 2.21rem), 3.16rem);
 }
 
-/* line 72, ../portfolio/vzduchovky/scss/main.scss */
+/* line 73, ../portfolio/vzduchovky/scss/main.scss */
 h3 {
   font-size: clamp(1.95rem, calc(0.68vi + 1.82rem), 2.37rem);
 }
 
-/* line 76, ../portfolio/vzduchovky/scss/main.scss */
+/* line 77, ../portfolio/vzduchovky/scss/main.scss */
 h4 {
   font-size: clamp(1.56rem, calc(0.35vi + 1.49rem), 1.78rem);
 }
 
-/* line 80, ../portfolio/vzduchovky/scss/main.scss */
+/* line 81, ../portfolio/vzduchovky/scss/main.scss */
 h5 {
   font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
 }
 
-/* line 84, ../portfolio/vzduchovky/scss/main.scss */
+/* line 85, ../portfolio/vzduchovky/scss/main.scss */
 p {
   font-size: clamp(1rem, calc(0vi + 1rem), 1rem);
 }
 
-/* line 90, ../portfolio/vzduchovky/scss/main.scss */
+/* line 91, ../portfolio/vzduchovky/scss/main.scss */
 header {
   max-width: 100%;
 }
 
-/* line 96, ../portfolio/vzduchovky/scss/main.scss */
+/* line 97, ../portfolio/vzduchovky/scss/main.scss */
 main {
   max-width: 100%;
 }
 
-/* line 100, ../portfolio/vzduchovky/scss/main.scss */
+/* line 101, ../portfolio/vzduchovky/scss/main.scss */
 section {
   max-width: 100%;
 }
 
-/* line 104, ../portfolio/vzduchovky/scss/main.scss */
+/* line 105, ../portfolio/vzduchovky/scss/main.scss */
 .content {
   max-width: 1300px;
   margin: 0 auto;

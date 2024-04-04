@@ -49,6 +49,10 @@
     img {
         place-self: center;
     }
+
+    img:last-of-type {
+        padding-top: 2rem;
+    }
 }
 
 
@@ -122,12 +126,14 @@
     }
 }
 
-.service-item:nth-child(odd) {
+.section-services .service-item:nth-child(odd) {
     .icon-wrap {
         order: 2;
     }
 
 }
+
+
 
 @media (max-width: 1050px) {
 
