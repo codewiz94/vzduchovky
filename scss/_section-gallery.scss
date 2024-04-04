@@ -1,0 +1,49 @@
+.section-gallery {
+    background-color: $color-neutral-dk;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    h2 {
+        text-align: center;
+        color: $color-font-lt;
+        line-height: 2;
+        padding-bottom: 1rem;
+    }
+}
+
+.slider {
+    display: none;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+
+    img {
+        border-radius: 15px;
+
+        &:hover,
+        &:active {
+            transform: scale(1.05);
+            transition-duration: 200ms;
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 850px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        
+        img {
+            place-self: center;
+        }
+    }
+}
