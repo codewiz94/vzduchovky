@@ -13,6 +13,12 @@
 
 .slider {
     display: none;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+    border-radius: 15px;
 }
 
 .gallery {
@@ -45,5 +51,43 @@
         img {
             place-self: center;
         }
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery {
+        display: none;
+    }
+
+    .slider {
+        display: block;
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+
+        button {
+            position: absolute;
+            top: 47%;
+            background-color: $color-neutral-dk;
+            border: 0;
+            font-size: $fs-md;
+            padding: 0.75rem;
+            cursor: pointer;
+            color: $color-font-lt;
+        }
+
+        .slide-prev {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .slide-next {
+            right: 0;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
     }
 }

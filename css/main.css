@@ -479,9 +479,16 @@ header {
 /* line 14, ../portfolio/vzduchovky/scss/_section-gallery.scss */
 .slider {
   display: none;
+  position: relative;
 }
 
-/* line 18, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+/* line 19, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+.mySlides {
+  display: none;
+  border-radius: 15px;
+}
+
+/* line 24, ../portfolio/vzduchovky/scss/_section-gallery.scss */
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -489,32 +496,70 @@ header {
   row-gap: 1rem;
 }
 
-/* line 24, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+/* line 30, ../portfolio/vzduchovky/scss/_section-gallery.scss */
 .gallery img {
   border-radius: 15px;
 }
 
-/* line 27, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+/* line 33, ../portfolio/vzduchovky/scss/_section-gallery.scss */
 .gallery img:hover, .gallery img:active {
   transform: scale(1.05);
   transition-duration: 200ms;
 }
 
 @media (max-width: 1050px) {
-  /* line 36, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+  /* line 42, ../portfolio/vzduchovky/scss/_section-gallery.scss */
   .gallery {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 850px) {
-  /* line 42, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+  /* line 48, ../portfolio/vzduchovky/scss/_section-gallery.scss */
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
-  /* line 45, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+  /* line 51, ../portfolio/vzduchovky/scss/_section-gallery.scss */
   .gallery img {
     place-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 58, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+  .gallery {
+    display: none;
+  }
+  /* line 62, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+  .slider {
+    display: block;
+    width: 100%;
+  }
+  /* line 66, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+  .slider img {
+    width: 100%;
+  }
+  /* line 70, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+  .slider button {
+    position: absolute;
+    top: 47%;
+    background-color: #1B1C1E;
+    border: 0;
+    font-size: clamp(1.25rem, calc(0.14vi + 1.22rem), 1.33rem);
+    padding: 0.75rem;
+    cursor: pointer;
+    color: #F2F3F4;
+  }
+  /* line 81, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+  .slider .slide-prev {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  /* line 86, ../portfolio/vzduchovky/scss/_section-gallery.scss */
+  .slider .slide-next {
+    right: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
 }
 
